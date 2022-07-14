@@ -1,4 +1,5 @@
 import * as React from "react"
+import TestComponent from "~/components/testcomponent"
 
 // styles
 const pageStyles = {
@@ -142,6 +143,7 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <title>Home Page</title>
+      <TestComponent />
       <h1 style={headingStyles}>
         Congratulations
         <br />
